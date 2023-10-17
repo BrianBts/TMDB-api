@@ -29,3 +29,5 @@ package-lock.json
 # Test files
 /coverage
 
+#archivos de texto
+*.txt
