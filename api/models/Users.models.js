@@ -35,7 +35,7 @@ const UsersSchema = mongoose.Schema({
     required: true,
   },
 
-  movies: [
+  favoriteMovies: [
     {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Movies",
