@@ -11,4 +11,4 @@ function validateToken(token) {
   return jwt.verify(token, SECRET);
 }
 
-modeule.export = { generateToken, validateToken };
+module.exports = { generateToken, validateToken };
